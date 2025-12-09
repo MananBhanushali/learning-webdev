@@ -46,7 +46,7 @@ To remove Data from Local Storage: use **localStorage.remove('\<name>')**
 ```javascript
 localStorage.setItem('message', 'hello');
 
-console.log(localStorage.setItem('message'));
+console.log(localStorage.getItem('message'));
 >'hello'
 
 localStorage.remove('message');

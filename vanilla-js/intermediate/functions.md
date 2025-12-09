@@ -22,7 +22,6 @@ console.log(varName);
 ```
 
 >[!NOTE]
-
 Functions can also be stored inside variables
 
 ```js

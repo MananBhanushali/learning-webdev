@@ -60,7 +60,6 @@ console.log(product.price);
 
 **Shortcut for creating functions inside objects ( methods ).**
 ```javascript
-
 const product = {
     method1: function func1() { // normal way
         console.log('Method 1');

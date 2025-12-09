@@ -3,7 +3,7 @@
 ## While Loop
 
 ```js
-while ( condition) {
+while (condition) {
     body
     increment step
 }
@@ -23,7 +23,7 @@ while ( i<=5 ) { // will run 5 times
 ## For Loops
 
 ```js
-for ( loop-variable, condition, increment) {
+for (loop-variable, condition, increment) {
     body
 }
 ```
