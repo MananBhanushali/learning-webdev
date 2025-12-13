@@ -9,6 +9,7 @@
   - [Loops](intermediate/loops.md)
   - [Document Object Model (DOM)](intermediate/dom.md)
   - [Modules and External Libraries](intermediate/modules.md)
+  - [Classes](intermediate/classes.md)
 
 ## Tutorials and References
 [SuperSimpleDev JS Basics Tutorial](https://www.youtube.com/watch?v=EerdGm-ehJQ)
