@@ -84,3 +84,42 @@ const oneLine = () => 2 + 3;
 ```
 
 It is recommended to use Arrow Functions when passing a function as an argument to another function, because it is easier to read.
+
+## 'this' Keyword
+
+**1. Inside a Method, 'this' points to the Outer Object.**
+```js
+const obj {
+    method() {
+        console.log(this); // points to obj
+    }
+}
+```
+
+**2. Inside a Function, 'this' is undefined, but we can change it.**
+```js
+function func(param1, param2) {
+    console.log(this);
+}
+
+func(); // will return undefined
+func.call('hello', 'param1', 'param2'); // will print hello
+```
+
+**3. Arrow Functions do not change the value of 'this'.**
+
+>[!IMPORTANT]
+**In Arrow functions, 'this' points to the same value it was outside the arrow function.**
+
+```js
+const obj = {
+    method() {
+        console.log(this);
+
+        [1, 2, 3].forEach( function() {console.log(this) } ); // will print undefined we have created a whole new function here, hence we lose access to the outer obj
+
+        // using arrow functions
+        [1, 2, 3].forEach( () => {console.log(this) } ); // this points to the obj
+    }
+}
+```
