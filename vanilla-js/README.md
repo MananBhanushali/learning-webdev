@@ -11,6 +11,7 @@
   - [Modules and External Libraries](intermediate/modules.md)
   - [Classes](intermediate/classes.md)
   - [Inheritance](intermediate/inheritance.md)
+  - [Requests and Responses](intermediate/requests.md)
 
 ## Tutorials and References
 [SuperSimpleDev JS Basics Tutorial](https://www.youtube.com/watch?v=EerdGm-ehJQ)
