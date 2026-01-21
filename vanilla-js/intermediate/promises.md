@@ -87,6 +87,21 @@ fetch('https://url.com/').then( (response) => {
 })
 ```
 
+We can also use requests other than GET
+```js
+fetch('https://url.com/', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+        data: 'my-data'
+    })
+})
+```
+headers gives the backend more information about our request
+body contains the actual data to send ( in this case , json format)
+
 ### Error handling in Promises - .catch()
 
 ```js
