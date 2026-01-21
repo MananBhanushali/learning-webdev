@@ -86,3 +86,14 @@ fetch('https://url.com/').then( (response) => {
     console.log(response)
 })
 ```
+
+### Error handling in Promises - .catch()
+
+```js
+const promise = fetch('https://error.url.com/').then((response) => {
+    return response.json();
+}).catch((error) => {
+    console.log('Unexpected Error. Please try again');
+    console.log(error);
+})
+```
