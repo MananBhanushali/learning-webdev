@@ -13,6 +13,7 @@
   - [Inheritance](intermediate/inheritance.md)
   - [Requests and Responses](intermediate/requests.md)
   - [Promises and Fetch](intermediate/promises.md)
+  - [Async and Await](intermediate/async_await.md)
 
 ## Tutorials and References
 [SuperSimpleDev JS Basics Tutorial](https://www.youtube.com/watch?v=EerdGm-ehJQ)
